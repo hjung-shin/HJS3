@@ -1,0 +1,60 @@
+/*BIO*/
+
+.space{
+    height: 50px;
+}
+
+p{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 23px;
+}
+
+.subsection-title{
+    font-family: 'Hind', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.section{
+    padding-bottom: 50px;
+}
+
+.first-line{
+    padding-bottom: 50px;
+}
+
+.name{
+    font-size: 30px;
+    color: #4169E1;
+    float: left;
+}
+
+.date{
+    float: right;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.detail{
+    padding-left:3em;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.sub-detail{
+    padding-left: 3em;
+    font-size: 18px;
+}
+
+.resume, .resume:hover{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    /*padding-left:3em;*/
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkgray;
+
+    /*text-align: center;*/
+    /*margin-left: 35%;*/
+}

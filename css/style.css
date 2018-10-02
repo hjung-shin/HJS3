@@ -1,0 +1,132 @@
+/*home*/
+/**/.home-name{
+    margin-top: 10vh;
+}
+
+.home-intro{
+    position:relative;
+    margin-top: 20vh;
+}
+
+.home-text{
+    /*position: relative;*/
+    /*width:20vh;*/
+    margin-left: 10vh;
+    margin-top: 30vh;
+}
+
+.main-name{
+    font-size: 120px;
+    font-family: 'Pacifico', cursive;
+}
+
+.korean-name{
+    font-size: 65px;
+    line-height: 150px;
+}
+
+.circle {
+    position: absolute;
+    opacity: 0.3;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.circle-home{
+    margin-top: -51vh;
+    margin-left: -90vh;
+    width: 600px;
+    height: 600px;
+    background: orange ;
+}
+
+.home-descrip{
+    font-family: 'Lato';
+    color:black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+
+}
+
+.circle-home-1{
+    margin-top: -42vh;
+    margin-left: 13vh;
+    width: 500px;
+    height: 500px;
+    background: darkolivegreen;
+}
+
+.circle-home-2{
+    margin-top: -15vh;
+    margin-left: 0vh;
+    width: 350px;
+    height: 350px;
+    background: indianred;
+}
+
+@media only screen and (max-height: 710px) {
+    .circle-home{
+        margin-top: -54vh;
+        margin-left: -100vh;
+        width: 570px;
+        height: 570px;
+    }
+
+    .circle-home-1{
+        margin-top: -45vh;
+        margin-left: 16vh;
+        width: 450px;
+        height: 450px;
+    }
+
+    .circle-home-2{
+        margin-top: -25vh;
+        width: 350px;
+        height: 350px;
+    }
+
+    .main-name{
+        font-size: 110px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .korean-name{
+        font-size: 60px;
+        line-height: 150px;
+    }
+}
+
+/*@media only screen and (max-height: 0px) {*/
+    /*.circle-home{*/
+        /*margin-top: -40vh;*/
+        /*margin-left: -88vh;*/
+        /*width: 620px;*/
+        /*height: 620px;*/
+    /*}*/
+
+    /*.circle-home-1{*/
+        /*margin-top: -30vh;*/
+        /*margin-left: 28vh;*/
+        /*width: 500px;*/
+        /*height: 500px;*/
+    /*}*/
+
+    /*.circle-home-2{*/
+        /*margin-top: -20vh;*/
+        /*margin-left: 5vh;*/
+        /*width: 350px;*/
+        /*height: 350px;*/
+    /*}*/
+
+    /*.main-name{*/
+        /*font-size: 110px;*/
+        /*font-family: 'Pacifico', cursive;*/
+    /*}*/
+
+    /*.korean-name{*/
+        /*font-size: 60px;*/
+        /*line-height: 150px;*/
+    /*}*/
+/*}*/
+

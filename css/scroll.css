@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+pre {
+    margin: 80px auto;
+}
+pre code {
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: rgba(0,0,0,0.1);
+    border: rgba(0,0,0,0.05) 5px solid;
+    max-width: 500px;
+}
+
+
+.main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main h1 {
+    padding:20px 50px 10px;
+    float: left;
+    width: 100%;
+    /*font-size: 60px;*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    margin: 0;
+    /*padding-top: 55px;*/
+    /*font-family: 'Open Sans';*/
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    /*letter-spacing: -1px;*/
+    text-transform: capitalize;
+}
+
+.page-container {
+    float: left;
+    width: 100%;
+    margin: 0 auto 300px;
+    position: relative;
+}
+
+
+.main {
+    margin-bottom: 350px;
+    overflow: hidden;
+}
+.tps-section {
+    width: 100% !important;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.tps-section .tps-wrapper {
+    border-radius: 5px;
+}
+.tps-section .tps-wrapper h1 {
+    position: relative;
+    height: 100%;
+    position: absolute;
+}
+.tps-section .tps-wrapper h1 a{
+    color: white;
+    text-decoration: none !important;
+    position: absolute;
+    background: rgba(0,0,0, 0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding-top: 180px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    left: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    /*line-height: 150%;*/
+    /*padding-bottom: 100px;*/
+}
+
+a:hover a:after{
+    text-decoration: none !important;
+}
+
+.tps-section .tps-wrapper h1 a small{
+    color:white;
+    background-color: darkred;
+    text-transform: none !important;
+    font-style: italic;
+    /*font-weight: 400;*/
+    font-family: noto serif;
+    /*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+
+
+
+.project-descp{
+    background-color: #4557bb;
+}
+
+.tps-section:nth-child(1) .tps-wrapper {
+    background: url("../images/overseer.jpg") center center;
+    background-size: contain;
+}
+
+.tps-section:nth-child(2) .tps-wrapper {
+    background: url("../images/photo-manager.png") center center;
+    background-size: cover;
+}
+
+.tps-section:nth-child(3) .tps-wrapper {
+    background: url("../images/fish-game.PNG") center center;
+    background-size: 100%;
+}
