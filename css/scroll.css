@@ -125,16 +125,21 @@ a:hover a:after{
 }
 
 .tps-section:nth-child(1) .tps-wrapper {
-    background: url("../images/overseer.jpg") center center;
+    background: url("../images/Respondez.png") center center;
     background-size: contain;
 }
 
 .tps-section:nth-child(2) .tps-wrapper {
+    background: url("../images/overseer.jpg") center center;
+    background-size: contain;
+}
+
+.tps-section:nth-child(3) .tps-wrapper {
     background: url("../images/photo-manager.png") center center;
     background-size: cover;
 }
 
-.tps-section:nth-child(3) .tps-wrapper {
+.tps-section:nth-child(4) .tps-wrapper {
     background: url("../images/fish-game.PNG") center center;
     background-size: 100%;
 }
